@@ -1,10 +1,58 @@
 html, body {
     height: 100%;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body {
+    background-image: url("movies.jpg");
 }
 
 .container {
-    position: relative;
-    top: 50%;
-    transform: translateY(-100%);
+    /*position: relative;*/
+    /*top: 50%;*/
+    /*transform: translateY(-100%);*/
+    /*text-align: center;*/
+}
+#orders li {
+    list-style-type: none;
+    background: lightgray; opacity: .85;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li .edit {
+    display: none;
+}
+
+ul li.edit .edit {
+    display: initial;
+}
+
+ul li.edit .noedit {
+    display: none;
+}
+.text-center {
+    color: white;
+    background-color: lightslategrey;
+    padding-right: 5px;
+    font-size: 3.8em;
+}
+#lowerPortion {
+    background: lightgray; opacity: .85;
+    padding: 10px;
+}
+.titChange {
+    color: black;
     text-align: center;
+
+}
+.ratChange {
+    color: black;
+    text-align: center;
+}
+#addShow {
+    color: white;
+    text-align: center;
+    background-color: lightslategrey;
+    padding-right: 5px;
+    font-size: 3.2em;
 }

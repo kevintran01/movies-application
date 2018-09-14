@@ -1,14 +1,19 @@
 {
   "movies": [
     {
-      "title": "Casablanca",
-      "rating": "4",
+      "title": "Workaholics",
+      "rating": "5",
       "id": 1
     },
     {
-      "title": "Star Wars: A New Hope",
+      "title": "Breaking Bad",
       "rating": "5",
       "id": 2
+    },
+    {
+      "title": "Family Guy",
+      "rating": "5",
+      "id": 3
     }
   ]
 }

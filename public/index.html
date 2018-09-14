@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8" />
     <title>My Application</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-
     <div class="container">
-        <h1>Hello There!</h1>
-        <p>To get started, edit <code>src/index.js</code>.</p>
-    </div>
+        <br>
+        <h1 class="text-center">Your Personal ShowBox!</h1>
+        <br>
+        <!--<h1>Hello There!</h1>-->
+        <!--<p>To get started, edit <code>src/index.js</code>.</p>-->
 
+        <ul id="orders"></ul>
+
+            <h2 id="addShow">Add a Show or Movie!</h2>
+            <div id="lowerPortion">
+            <p class="titChange">Title: <input  type="text" id="title"></p>
+            <p class="ratChange">Rating: <input  type="text" id="rating"></p>
+            </div>
+        <br>
+            <button id="add-movie" class="btn btn-primary btn-lg btn-block">Add!</button>
+            <br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
